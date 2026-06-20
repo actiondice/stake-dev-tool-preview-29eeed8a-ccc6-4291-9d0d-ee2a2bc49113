@@ -693,6 +693,15 @@
         }, 100);
         window.addEventListener("resize", scaleStage);
         loader.addEventListener("click", finish);
+        // robustness: "press anywhere" works from anywhere (some webviews don't
+        // deliver the click to the overlay), and a hard fallback guarantees the
+        // loader can never get permanently stuck -> reveal the game no matter what.
+        function forceFinish(){ studioDone = true; ready = true; finish(); }
+        window.addEventListener("pointerdown", forceFinish, true);
+        window.addEventListener("click", forceFinish, true);
+        window.addEventListener("keydown", forceFinish, true);
+        window.addEventListener("touchstart", forceFinish, true);
+        setTimeout(forceFinish, 11000);
       })();
     </script>
     <div id="app"></div>
