@@ -78,10 +78,15 @@
         transition: opacity 280ms ease;
         pointer-events: all;
       }
-      #wvz-game-loader.done {
-        opacity: 0;
-        pointer-events: none;
-      }
+        #wvz-game-loader.done {
+          opacity: 0;
+          pointer-events: none;
+        }
+        body.wvz-hide-native-loader .loading-screen.svelte-b2pzx6 {
+          opacity: 0 !important;
+          pointer-events: none !important;
+          visibility: hidden !important;
+        }
       #wvz-game-loader iframe {
         position: absolute;
         inset: 0;
@@ -631,14 +636,40 @@
           startExactLoader();
         });
 
-        function finish() {
-          if (done) return;
-          if (!studioDone || !ready) return;
-          done = true;
+        function nativeLoaderGone() {
+          return !document.querySelector(".loading-screen.svelte-b2pzx6");
+        }
+
+        function hideNativeLoader() {
+          document.body.classList.add("wvz-hide-native-loader");
+          document.querySelectorAll(".loading-screen.svelte-b2pzx6").forEach(function (el) {
+            el.style.opacity = "0";
+            el.style.pointerEvents = "none";
+            el.style.visibility = "hidden";
+          });
+        }
+
+        function removeExactLoader() {
           loader.classList.add("done");
           setTimeout(function () {
             if (loader && loader.parentNode) loader.parentNode.removeChild(loader);
           }, 320);
+        }
+
+        function finish() {
+          if (done) return;
+          if (!studioDone || !ready) return;
+          done = true;
+          hideNativeLoader();
+          var tries = 0;
+          var waitForGame = setInterval(function () {
+            tries++;
+            hideNativeLoader();
+            if (nativeLoaderGone() || tries > 120) {
+              clearInterval(waitForGame);
+              removeExactLoader();
+            }
+          }, 100);
         }
 
         if (stage) {

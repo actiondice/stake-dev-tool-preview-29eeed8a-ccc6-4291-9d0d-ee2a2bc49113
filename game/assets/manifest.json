@@ -1,330 +1,313 @@
 {
-    "bundles": [
+  "bundles": [
+    {
+      "name": "symbols",
+      "assets": [
         {
-            "name": "symbols",
-            "assets": [
-                {
-                    "alias": "H1",
-                    "src": "assets/symbols/sunflower.png"
-                },
-                {
-                    "alias": "H2",
-                    "src": "assets/symbols/peashooter.png?v=pea-fit1"
-                },
-                {
-                    "alias": "H3",
-                    "src": "assets/symbols/wallnut.png"
-                },
-                {
-                    "alias": "H4",
-                    "src": "assets/symbols/chomper.png"
-                },
-                {
-                    "alias": "H5",
-                    "src": "assets/symbols/cherrybomb.png"
-                },
-                {
-                    "alias": "A",
-                    "src": "assets/symbols/royal_a.png"
-                },
-                {
-                    "alias": "K",
-                    "src": "assets/symbols/royal_k.png"
-                },
-                {
-                    "alias": "Q",
-                    "src": "assets/symbols/royal_q.png"
-                },
-                {
-                    "alias": "J",
-                    "src": "assets/symbols/royal_j.png"
-                },
-                {
-                    "alias": "10",
-                    "src": "assets/symbols/royal_10.png"
-                },
-                {
-                    "alias": "WILD",
-                    "src": "assets/symbols/wild_lawnmower.png"
-                },
-                {
-                    "alias": "SCATTER",
-                    "src": "assets/symbols/scatter_grave.png"
-                },
-                {
-                    "alias": "VS",
-                    "src": "assets/symbols/vs.png"
-                },
-                {
-                    "alias": "R",
-                    "src": "assets/symbols/shovel.png"
-                },
-                {
-                    "alias": "GR",
-                    "src": "assets/symbols/gold_shovel.png"
-                },
-                {
-                    "alias": "VS2",
-                    "src": "assets/symbols/vs2.png"
-                }
-            ]
+          "alias": "H1",
+          "src": "assets/symbols/sunflower.png"
         },
         {
-            "name": "backgrounds",
-            "assets": [
-                {
-                    "alias": "bg-day",
-                    "src": "assets/backgrounds/day.png"
-                },
-                {
-                    "alias": "bg-night",
-                    "src": "assets/backgrounds/night.png"
-                },
-                {
-                    "alias": "bg-bonus",
-                    "src": "assets/backgrounds/night.png"
-                }
-            ]
+          "alias": "H2",
+          "src": "assets/symbols/peashooter.png?v=pea-fit1"
         },
         {
-            "name": "fonts",
-            "assets": [
-                {
-                    "alias": "bahnschrift",
-                    "src": "assets/fonts/BAHNSCHRIFT.TTF",
-                    "data": {
-                        "family": "Bahnschrift"
-                    }
-                },
-                {
-                    "alias": "berlin-sans-regular",
-                    "src": "assets/fonts/BRLNSR.TTF",
-                    "data": {
-                        "family": "BerlinSansRegular"
-                    }
-                },
-                {
-                    "alias": "luckiest-guy",
-                    "src": "assets/fonts/LuckiestGuy-Regular.ttf",
-                    "data": {
-                        "family": "LuckiestGuy"
-                    }
-                }
-            ]
+          "alias": "H3",
+          "src": "assets/symbols/wallnut.png"
         },
         {
-            "name": "ui",
-            "assets": [
-                {
-                    "alias": "frame-board",
-                    "src": "assets/ui/board_frame.png"
-                },
-                {
-                    "alias": "game-title",
-                    "src": "assets/ui/title.png"
-                },
-                {
-                    "alias": "character",
-                    "src": "assets/ui/character.png"
-                }
-            ]
+          "alias": "H4",
+          "src": "assets/symbols/chomper.png"
         },
         {
-            "name": "animations",
-            "assets": [
-                {
-                    "alias": "low_pay_1_skel",
-                    "src": "assets/animation/low_pay_symbols/low_pay_1.json"
-                },
-                {
-                    "alias": "low_pay_1_atlas",
-                    "src": "assets/animation/low_pay_symbols/low_pay_1.atlas"
-                },
-                {
-                    "alias": "low_pay_2_skel",
-                    "src": "assets/animation/low_pay_symbols/low_pay_2.json"
-                },
-                {
-                    "alias": "low_pay_2_atlas",
-                    "src": "assets/animation/low_pay_symbols/low_pay_2.atlas"
-                },
-                {
-                    "alias": "low_pay_3_skel",
-                    "src": "assets/animation/low_pay_symbols/low_pay_3.json"
-                },
-                {
-                    "alias": "low_pay_3_atlas",
-                    "src": "assets/animation/low_pay_symbols/low_pay_3.atlas"
-                },
-                {
-                    "alias": "low_pay_4_skel",
-                    "src": "assets/animation/low_pay_symbols/low_pay_4.json"
-                },
-                {
-                    "alias": "low_pay_4_atlas",
-                    "src": "assets/animation/low_pay_symbols/low_pay_4.atlas"
-                },
-                {
-                    "alias": "low_pay_5_skel",
-                    "src": "assets/animation/low_pay_symbols/low_pay_5.json"
-                },
-                {
-                    "alias": "low_pay_5_atlas",
-                    "src": "assets/animation/low_pay_symbols/low_pay_5.atlas"
-                },
-                {
-                    "alias": "high_pay_1_skel",
-                    "src": "assets/animation/high_pay_symbols/high_pay_1.json"
-                },
-                {
-                    "alias": "high_pay_1_atlas",
-                    "src": "assets/animation/high_pay_symbols/high_pay_1.atlas"
-                },
-                {
-                    "alias": "high_pay_2_skel",
-                    "src": "assets/animation/high_pay_symbols/high_pay_2.json"
-                },
-                {
-                    "alias": "high_pay_2_atlas",
-                    "src": "assets/animation/high_pay_symbols/high_pay_2.atlas"
-                },
-                {
-                    "alias": "high_pay_3_skel",
-                    "src": "assets/animation/high_pay_symbols/high_pay_3.json"
-                },
-                {
-                    "alias": "high_pay_3_atlas",
-                    "src": "assets/animation/high_pay_symbols/high_pay_3.atlas"
-                },
-                {
-                    "alias": "high_pay_4_skel",
-                    "src": "assets/animation/high_pay_symbols/high_pay_4.json"
-                },
-                {
-                    "alias": "high_pay_4_atlas",
-                    "src": "assets/animation/high_pay_symbols/high_pay_4.atlas"
-                },
-                {
-                    "alias": "high_pay_5_skel",
-                    "src": "assets/animation/high_pay_symbols/high_pay_5.json"
-                },
-                {
-                    "alias": "high_pay_5_atlas",
-                    "src": "assets/animation/high_pay_symbols/high_pay_5.atlas"
-                },
-                {
-                    "alias": "wild_skel",
-                    "src": "assets/animation/special_symbols/lawnmover.json?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "wild_atlas",
-                    "src": "assets/animation/special_symbols/lawnmover.atlas?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "scatter_skel",
-                    "src": "assets/animation/special_symbols/gravestone.json?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "scatter_atlas",
-                    "src": "assets/animation/special_symbols/gravestone.atlas?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "r_skel",
-                    "src": "assets/animation/special_symbols/Silver_Shovel.json?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "r_atlas",
-                    "src": "assets/animation/special_symbols/Silver_Shovel.atlas?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "gr_skel",
-                    "src": "assets/animation/special_symbols/Gold_Shovel.json?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "gr_atlas",
-                    "src": "assets/animation/special_symbols/Gold_Shovel.atlas?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "vs_skel",
-                    "src": "assets/animation/special_symbols/Vs_symbol.json?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "vs_atlas",
-                    "src": "assets/animation/special_symbols/Vs_symbol.atlas?v=special_anim_20260609_1"
-                },
-                {
-                    "alias": "bg_skel",
-                    "src": "assets/animation/background/background.json"
-                },
-                {
-                    "alias": "bg_atlas",
-                    "src": "assets/animation/background/background.atlas"
-                },
-                {
-                    "alias": "char_day_skel",
-                    "src": "assets/animation/character/character_day.json"
-                },
-                {
-                    "alias": "char_day_atlas",
-                    "src": "assets/animation/character/character_day.atlas"
-                },
-                {
-                    "alias": "char_night_skel",
-                    "src": "assets/animation/character/character_night.json"
-                },
-                {
-                    "alias": "char_night_atlas",
-                    "src": "assets/animation/character/character_night.atlas"
-                },
-                {
-                    "alias": "win_popup_skel",
-                    "src": "assets/animation/win_popups/win_popUp.json"
-                },
-                {
-                    "alias": "win_popup_atlas",
-                    "src": "assets/animation/win_popups/win_popUp.atlas"
-                },
-                {
-                    "alias": "coin_skel",
-                    "src": "assets/animation/coins/coin.json"
-                },
-                {
-                    "alias": "coin_atlas",
-                    "src": "assets/animation/coins/coin.atlas"
-                },
-                {
-                    "alias": "payline_skel",
-                    "src": "assets/animation/payline/payline.json"
-                },
-                {
-                    "alias": "payline_atlas",
-                    "src": "assets/animation/payline/payline.atlas"
-                },
-                {
-                    "alias": "bonus_intro_skel",
-                    "src": "assets/animation/bonus_super_bonus_pop/bonus_super_bonus.json"
-                },
-                {
-                    "alias": "bonus_intro_atlas",
-                    "src": "assets/animation/bonus_super_bonus_pop/bonus_super_bonus.atlas"
-                },
-                {
-                    "alias": "retrigger_skel",
-                    "src": "assets/animation/retrigger/retrigger.json"
-                },
-                {
-                    "alias": "retrigger_atlas",
-                    "src": "assets/animation/retrigger/retrigger.atlas"
-                },
-                {
-                    "alias": "total_win_skel",
-                    "src": "assets/animation/total_win/total_win.json"
-                },
-                {
-                    "alias": "total_win_atlas",
-                    "src": "assets/animation/total_win/total_win.atlas"
-                }
-            ]
+          "alias": "H5",
+          "src": "assets/symbols/cherrybomb.png"
+        },
+        {
+          "alias": "A",
+          "src": "assets/symbols/royal_a.png"
+        },
+        {
+          "alias": "K",
+          "src": "assets/symbols/royal_k.png"
+        },
+        {
+          "alias": "Q",
+          "src": "assets/symbols/royal_q.png"
+        },
+        {
+          "alias": "J",
+          "src": "assets/symbols/royal_j.png"
+        },
+        {
+          "alias": "10",
+          "src": "assets/symbols/royal_10.png"
+        },
+        {
+          "alias": "WILD",
+          "src": "assets/symbols/wild_lawnmower.png"
+        },
+        {
+          "alias": "SCATTER",
+          "src": "assets/symbols/scatter_grave.png"
+        },
+        {
+          "alias": "VS",
+          "src": "assets/symbols/vs.png"
+        },
+        {
+          "alias": "R",
+          "src": "assets/symbols/shovel.png"
+        },
+        {
+          "alias": "GR",
+          "src": "assets/symbols/gold_shovel.png"
+        },
+        {
+          "alias": "VS2",
+          "src": "assets/symbols/vs2.png"
         }
-    ]
+      ]
+    },
+    {
+      "name": "fonts",
+      "assets": [
+        {
+          "alias": "bahnschrift",
+          "src": "assets/fonts/BAHNSCHRIFT.TTF",
+          "data": {
+            "family": "Bahnschrift"
+          }
+        },
+        {
+          "alias": "berlin-sans-regular",
+          "src": "assets/fonts/BRLNSR.TTF",
+          "data": {
+            "family": "BerlinSansRegular"
+          }
+        },
+        {
+          "alias": "luckiest-guy",
+          "src": "assets/fonts/LuckiestGuy-Regular.ttf",
+          "data": {
+            "family": "LuckiestGuy"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ui",
+      "assets": [
+        {
+          "alias": "frame-board",
+          "src": "assets/ui/board_frame.png"
+        },
+        {
+          "alias": "game-title",
+          "src": "assets/ui/title.png"
+        },
+        {
+          "alias": "character",
+          "src": "assets/ui/character.png"
+        }
+      ]
+    },
+    {
+      "name": "animations",
+      "assets": [
+        {
+          "alias": "low_pay_1_skel",
+          "src": "assets/animation/low_pay_symbols/low_pay_1.json"
+        },
+        {
+          "alias": "low_pay_1_atlas",
+          "src": "assets/animation/low_pay_symbols/low_pay_1.atlas"
+        },
+        {
+          "alias": "low_pay_2_skel",
+          "src": "assets/animation/low_pay_symbols/low_pay_2.json"
+        },
+        {
+          "alias": "low_pay_2_atlas",
+          "src": "assets/animation/low_pay_symbols/low_pay_2.atlas"
+        },
+        {
+          "alias": "low_pay_3_skel",
+          "src": "assets/animation/low_pay_symbols/low_pay_3.json"
+        },
+        {
+          "alias": "low_pay_3_atlas",
+          "src": "assets/animation/low_pay_symbols/low_pay_3.atlas"
+        },
+        {
+          "alias": "low_pay_4_skel",
+          "src": "assets/animation/low_pay_symbols/low_pay_4.json"
+        },
+        {
+          "alias": "low_pay_4_atlas",
+          "src": "assets/animation/low_pay_symbols/low_pay_4.atlas"
+        },
+        {
+          "alias": "low_pay_5_skel",
+          "src": "assets/animation/low_pay_symbols/low_pay_5.json"
+        },
+        {
+          "alias": "low_pay_5_atlas",
+          "src": "assets/animation/low_pay_symbols/low_pay_5.atlas"
+        },
+        {
+          "alias": "high_pay_1_skel",
+          "src": "assets/animation/high_pay_symbols/high_pay_1.json"
+        },
+        {
+          "alias": "high_pay_1_atlas",
+          "src": "assets/animation/high_pay_symbols/high_pay_1.atlas"
+        },
+        {
+          "alias": "high_pay_2_skel",
+          "src": "assets/animation/high_pay_symbols/high_pay_2.json"
+        },
+        {
+          "alias": "high_pay_2_atlas",
+          "src": "assets/animation/high_pay_symbols/high_pay_2.atlas"
+        },
+        {
+          "alias": "high_pay_3_skel",
+          "src": "assets/animation/high_pay_symbols/high_pay_3.json"
+        },
+        {
+          "alias": "high_pay_3_atlas",
+          "src": "assets/animation/high_pay_symbols/high_pay_3.atlas"
+        },
+        {
+          "alias": "high_pay_4_skel",
+          "src": "assets/animation/high_pay_symbols/high_pay_4.json"
+        },
+        {
+          "alias": "high_pay_4_atlas",
+          "src": "assets/animation/high_pay_symbols/high_pay_4.atlas"
+        },
+        {
+          "alias": "high_pay_5_skel",
+          "src": "assets/animation/high_pay_symbols/high_pay_5.json"
+        },
+        {
+          "alias": "high_pay_5_atlas",
+          "src": "assets/animation/high_pay_symbols/high_pay_5.atlas"
+        },
+        {
+          "alias": "wild_skel",
+          "src": "assets/animation/special_symbols/lawnmover.json?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "wild_atlas",
+          "src": "assets/animation/special_symbols/lawnmover.atlas?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "scatter_skel",
+          "src": "assets/animation/special_symbols/gravestone.json?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "scatter_atlas",
+          "src": "assets/animation/special_symbols/gravestone.atlas?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "r_skel",
+          "src": "assets/animation/special_symbols/Silver_Shovel.json?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "r_atlas",
+          "src": "assets/animation/special_symbols/Silver_Shovel.atlas?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "gr_skel",
+          "src": "assets/animation/special_symbols/Gold_Shovel.json?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "gr_atlas",
+          "src": "assets/animation/special_symbols/Gold_Shovel.atlas?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "vs_skel",
+          "src": "assets/animation/special_symbols/Vs_symbol.json?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "vs_atlas",
+          "src": "assets/animation/special_symbols/Vs_symbol.atlas?v=special_anim_20260609_1"
+        },
+        {
+          "alias": "bg_skel",
+          "src": "assets/animation/background/background.json"
+        },
+        {
+          "alias": "bg_atlas",
+          "src": "assets/animation/background/background.atlas"
+        },
+        {
+          "alias": "char_day_skel",
+          "src": "assets/animation/character/character_day.json"
+        },
+        {
+          "alias": "char_day_atlas",
+          "src": "assets/animation/character/character_day.atlas"
+        },
+        {
+          "alias": "char_night_skel",
+          "src": "assets/animation/character/character_night.json"
+        },
+        {
+          "alias": "char_night_atlas",
+          "src": "assets/animation/character/character_night.atlas"
+        },
+        {
+          "alias": "win_popup_skel",
+          "src": "assets/animation/win_popups/win_popUp.json"
+        },
+        {
+          "alias": "win_popup_atlas",
+          "src": "assets/animation/win_popups/win_popUp.atlas"
+        },
+        {
+          "alias": "coin_skel",
+          "src": "assets/animation/coins/coin.json"
+        },
+        {
+          "alias": "coin_atlas",
+          "src": "assets/animation/coins/coin.atlas"
+        },
+        {
+          "alias": "payline_skel",
+          "src": "assets/animation/payline/payline.json"
+        },
+        {
+          "alias": "payline_atlas",
+          "src": "assets/animation/payline/payline.atlas"
+        },
+        {
+          "alias": "bonus_intro_skel",
+          "src": "assets/animation/bonus_super_bonus_pop/bonus_super_bonus.json"
+        },
+        {
+          "alias": "bonus_intro_atlas",
+          "src": "assets/animation/bonus_super_bonus_pop/bonus_super_bonus.atlas"
+        },
+        {
+          "alias": "retrigger_skel",
+          "src": "assets/animation/retrigger/retrigger.json"
+        },
+        {
+          "alias": "retrigger_atlas",
+          "src": "assets/animation/retrigger/retrigger.atlas"
+        },
+        {
+          "alias": "total_win_skel",
+          "src": "assets/animation/total_win/total_win.json"
+        },
+        {
+          "alias": "total_win_atlas",
+          "src": "assets/animation/total_win/total_win.atlas"
+        }
+      ]
+    }
+  ]
 }
