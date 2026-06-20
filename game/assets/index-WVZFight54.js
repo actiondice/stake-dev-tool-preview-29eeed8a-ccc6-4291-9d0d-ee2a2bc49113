@@ -2256,7 +2256,7 @@ function WVZFeatureMenuPolish(){if(window.__wvzFeatureMenuPolish)return;window._
     }catch(e){return!1}
   }
   function setTex(k){let tx=texFor(k);if(!tx)return!1;shadow.texture=tx;base.texture=tx;mask.texture=tx;return!0}
-  function place(){let app=window.__wvzApp;let sc=app.stage.scale.x||1,px=app.stage.x||0,py=app.stage.y||0,W=app.screen.width,H=app.screen.height;bsc=Math.min(W*.27,400)/(FW*sc);bx=(W*.496-px)/sc;by=(H*.51-py)/sc;gsc=sc}
+  function place(){let app=window.__wvzApp;let sc=app.stage.scale.x||1,px=app.stage.x||0,py=app.stage.y||0,W=app.screen.width,H=app.screen.height;bsc=0.83;bx=(W*.496-px)/sc;by=(H*.51-py)/sc;gsc=sc}
   function tick(){
     if(!active||!built)return;
     let app=window.__wvzApp;tsec+=(app.ticker.deltaMS||16.7)/1000;let t=tsec,intro=t<.75?0:Math.min(1,(t-.75)/.42),introEase=intro<=0?0:1+2.70158*Math.pow(intro-1,3)+1.70158*Math.pow(intro-1,2),introScale=.15+.85*introEase;
