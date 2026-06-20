@@ -1,0 +1,57 @@
+retrigger.png
+size:1979,811
+filter:Linear,Linear
++5
+bounds:1143,133,339,290
+offsets:1,1,341,292
+Layer 43 copy 10
+bounds:1143,425,471,280
+Layer 43 copy 12
+bounds:1484,173,336,195
+Layer 43 copy 9
+bounds:1616,370,335,238
+rotate:90
+Layer 548
+bounds:2,2,876,807
+offsets:11,11,898,825
+Layer 768 copy 5
+bounds:880,707,935,102
+offsets:1,1,938,104
+Layer 768 copy 8
+bounds:1484,69,356,102
+offsets:1,1,359,104
+Layer 768 copy 9
+bounds:1856,453,356,102
+offsets:2,1,359,104
+rotate:90
+arm copy 2
+bounds:880,202,261,503
+e
+bounds:1108,13,118,178
+offsets:1,1,121,181
+rotate:90
+e1
+bounds:1108,13,118,178
+offsets:1,1,121,181
+rotate:90
+g1
+bounds:880,13,151,187
+offsets:1,1,154,189
+g2
+bounds:880,13,151,187
+offsets:1,1,154,189
+i
+bounds:1033,28,73,172
+offsets:1,1,75,175
+r
+bounds:1822,188,143,180
+offsets:2,1,147,182
+r2
+bounds:1822,188,143,180
+offsets:2,1,147,182
+r3
+bounds:1822,188,143,180
+offsets:2,1,147,182
+t
+bounds:1842,11,135,175
+offsets:2,1,138,177

@@ -1,0 +1,47 @@
+low_pay_1.png
+size:613,213
+filter:Linear,Linear
+Curve_shine
+bounds:225,75,247,136
+Layer 2
+bounds:225,3,70,49
+rotate:90
+Layer 3
+bounds:528,12,78,111
+Layer 4
+bounds:397,29,44,72
+rotate:90
+Layer 5
+bounds:514,125,86,97
+rotate:90
+Layer 6
+bounds:276,19,93,54
+Layer 7
+bounds:2,8,203,221
+offsets:1,1,205,223
+rotate:90
+Layer 8 copy
+bounds:411,2,36,25
+Layer 8
+bounds:411,2,36,25
+Layer 8 copy 2
+bounds:474,150,32,32
+Layer 8 copy 3
+bounds:474,116,32,32
+Layer 8 copy 4
+bounds:474,184,36,27
+leaf copy
+bounds:474,75,39,41
+rotate:90
+leaf copy 2
+bounds:371,2,24,38
+rotate:90
+leaf copy 3
+bounds:471,30,43,26
+rotate:90
+leaf copy 4
+bounds:499,32,27,41
+leaf copy 5
+bounds:371,28,24,45
+leaf copy 6
+bounds:471,2,41,26

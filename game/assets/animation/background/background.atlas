@@ -1,0 +1,186 @@
+background.png
+size:4096,4096
+filter:Linear,Linear
+Bird/Bird0001
+bounds:546,20,120,90
+offsets:35,50,200,200
+Bird/Bird0019
+bounds:546,20,120,90
+offsets:35,50,200,200
+Bird/Bird0003
+bounds:790,31,120,79
+offsets:35,50,200,200
+Bird/Bird0005
+bounds:1034,53,120,57
+offsets:35,51,200,200
+Bird/Bird0007
+bounds:3664,1941,120,59
+offsets:35,16,200,200
+Bird/Bird0009
+bounds:3542,1925,120,75
+offsets:35,0,200,200
+Bird/Bird0011
+bounds:912,45,120,65
+offsets:35,10,200,200
+Bird/Bird0013
+bounds:4016,267,120,39
+offsets:35,52,200,200
+rotate:90
+Bird/Bird0015
+bounds:1994,114,120,54
+offsets:35,51,200,200
+Bird/Bird0017
+bounds:668,30,120,80
+offsets:35,50,200,200
+Blue_bird/blue_bird0002
+bounds:3809,1986,363,273
+offsets:76,43,500,500
+rotate:90
+Blue_bird/blue_bird0013
+bounds:3809,1986,363,273
+offsets:76,43,500,500
+rotate:90
+Day_Layer 12
+bounds:1994,831,1957,1090
+offsets:1,1,1959,1092
+Day_Layer 13
+bounds:2,112,1990,1990
+offsets:1,1,1992,1992
+Day_Layer 14
+bounds:2954,532,906,297
+offsets:2,2,909,301
+Day_Layer 16
+bounds:2010,1923,2171,1155
+rotate:90
+Day_Layer 17
+bounds:3206,49,146,188
+rotate:90
+Day_Layer 18
+bounds:2,35,373,75
+Day_Layer 20
+bounds:2954,197,586,333
+offsets:1,1,590,335
+Day_Layer 43 copy
+bounds:3862,579,250,184
+rotate:90
+Day_cloud_1
+bounds:3929,220,167,85
+offsets:1,1,169,87
+rotate:90
+Day_cloud_2
+bounds:3809,2911,590,284
+offsets:18,1,616,286
+rotate:90
+Day_clouds copy_off
+bounds:3167,2002,2092,319
+offsets:1,1,2094,321
+rotate:90
+Day_sun_
+bounds:3396,76,131,119
+offsets:1,1,135,127
+Night_front_tree
+bounds:3167,1925,373,75
+Night_make those windows lit copy
+bounds:1994,170,958,659
+offsets:0,0,958,695
+Night_moon
+bounds:3929,95,110,123
+offsets:2,1,114,125
+Night_moon_glow (0;00;00;00)
+bounds:3542,118,385,412
+offsets:51,47,512,512
+Night_ree_4
+bounds:3929,389,146,188
+Night_tree_3
+bounds:2954,11,250,184
+Smoke
+bounds:1994,2,116,110
+offsets:2,0,118,110
+clouds_off
+bounds:3488,2002,2092,319
+offsets:1,1,2094,321
+rotate:90
+eye_L
+bounds:1994,2084,14,18
+offsets:1,1,16,20
+eye_R
+bounds:3206,27,17,20
+eyebrow_L
+bounds:3529,157,17,11
+rotate:90
+eyebrow_r
+bounds:3529,176,19,11
+rotate:90
+night
+bounds:377,25,167,85
+offsets:1,1,169,87
+night copy
+bounds:3809,3503,591,284
+offsets:13,1,606,286
+rotate:90
+night copy 12
+bounds:2,2104,2006,1990
+offsets:1,1,2008,1992
+night copy 2
+bounds:3809,2351,558,284
+offsets:7,1,581,285
+rotate:90
+smile
+bounds:3862,532,45,17
+rotate:90
+sparkle_01
+bounds:668,2,26,26
+offsets:1,1,28,28
+
+background_2.png
+size:4096,2048
+filter:Linear,Linear
+Blue_bird/blue_bird0004
+bounds:2173,1129,363,272
+offsets:72,46,500,500
+Blue_bird/blue_bird0006
+bounds:3083,1755,350,273
+offsets:91,52,500,500
+Blue_bird/blue_bird0008
+bounds:3792,1760,302,268
+offsets:143,57,500,500
+Blue_bird/blue_bird0010
+bounds:1538,616,346,261
+offsets:100,58,500,500
+Blue_bird/blue_bird0011
+bounds:2173,1403,385,298
+offsets:58,48,500,500
+Day_Layer 15
+bounds:1886,603,295,274
+offsets:0,0,296,274
+Day_Layer 19
+bounds:3435,1769,355,259
+offsets:1,1,357,261
+Day_Layer 21
+bounds:2173,1703,565,325
+offsets:1,1,569,329
+Day_Layer 95 copy 2
+bounds:2740,1717,341,311
+Day_cloud_3
+bounds:590,609,572,268
+offsets:2,8,581,285
+Day_rays
+bounds:2173,917,233,210
+offsets:2,3,238,216
+Day_sun copy
+bounds:2,2,236,213
+offsets:2,2,240,217
+Night_fence
+bounds:2,544,586,333
+offsets:1,1,590,335
+Night_grass
+bounds:2,217,565,325
+offsets:1,1,569,329
+Night_house
+bounds:2,879,2169,1149
+offsets:1,1,2171,1155
+Night_make those windows lit 2
+bounds:1164,620,372,257
+Night_tree_2
+bounds:2560,1405,296,274
+rotate:90

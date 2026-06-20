@@ -1,0 +1,21 @@
+coin.png
+size:904,260
+filter:Linear,Linear
+Layer 1
+bounds:2,3,245,255
+offsets:6,1,256,256
+Layer 2
+bounds:249,3,222,255
+offsets:1,1,224,256
+Layer 3
+bounds:775,4,75,254
+offsets:29,1,122,256
+Layer 4
+bounds:852,3,50,255
+offsets:1,0,51,256
+Layer 5
+bounds:697,2,76,256
+offsets:23,0,122,256
+Layer 6
+bounds:473,4,222,254
+offsets:1,0,224,255

@@ -1,0 +1,161 @@
+{
+  "files": [
+    {
+      "chunks": [
+        {
+          "fileName": "books_bonus.jsonl.9fc6265f",
+          "sha256": "9fc6265ff90cf5355f2b861b885d05129d7325ceae5bc82f0a89b1cc933d3c27",
+          "size": 20653,
+          "url": "./math/chunks/books_bonus.jsonl.9fc6265f"
+        }
+      ],
+      "name": "books_bonus.jsonl",
+      "sha256": "9fc6265ff90cf5355f2b861b885d05129d7325ceae5bc82f0a89b1cc933d3c27",
+      "size": 20653
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_extra_chance.jsonl.ff095ad3",
+          "sha256": "ff095ad3474533f15bea0d78a0387e9773e32d69e3a0ca81e57e732e73422e21",
+          "size": 13324,
+          "url": "./math/chunks/books_extra_chance.jsonl.ff095ad3"
+        }
+      ],
+      "name": "books_extra_chance.jsonl",
+      "sha256": "ff095ad3474533f15bea0d78a0387e9773e32d69e3a0ca81e57e732e73422e21",
+      "size": 13324
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_grave_rush.jsonl.61c92e75",
+          "sha256": "61c92e755d640e3d9bad82e701d6d9ee33a91a12951b248ad36e894c0d1aa708",
+          "size": 5655,
+          "url": "./math/chunks/books_grave_rush.jsonl.61c92e75"
+        }
+      ],
+      "name": "books_grave_rush.jsonl",
+      "sha256": "61c92e755d640e3d9bad82e701d6d9ee33a91a12951b248ad36e894c0d1aa708",
+      "size": 5655
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_random_bonus.jsonl.df28aee2",
+          "sha256": "df28aee20e49d26513637ffb3f80bc1024cf88a25c2c59c7450198d43fc1198e",
+          "size": 24710,
+          "url": "./math/chunks/books_random_bonus.jsonl.df28aee2"
+        }
+      ],
+      "name": "books_random_bonus.jsonl",
+      "sha256": "df28aee20e49d26513637ffb3f80bc1024cf88a25c2c59c7450198d43fc1198e",
+      "size": 24710
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_standard.jsonl.d4c94954",
+          "sha256": "d4c94954ec2f97e64bf8500befa301fd54dfa55e522b0f7fec32d44b47cf9da3",
+          "size": 13479,
+          "url": "./math/chunks/books_standard.jsonl.d4c94954"
+        }
+      ],
+      "name": "books_standard.jsonl",
+      "sha256": "d4c94954ec2f97e64bf8500befa301fd54dfa55e522b0f7fec32d44b47cf9da3",
+      "size": 13479
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_super_bonus.jsonl.cf6d6896",
+          "sha256": "cf6d68966baa818cf5aca0a8943874316b4a4cb5e9fcc08b7915df02625f01d7",
+          "size": 24667,
+          "url": "./math/chunks/books_super_bonus.jsonl.cf6d6896"
+        }
+      ],
+      "name": "books_super_bonus.jsonl",
+      "sha256": "cf6d68966baa818cf5aca0a8943874316b4a4cb5e9fcc08b7915df02625f01d7",
+      "size": 24667
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_bonus_0.csv.e3c1849c",
+          "sha256": "e3c1849c05637aa2169de63c7b72a1685d1db98d016261c0f63ce56642354f75",
+          "size": 383,
+          "url": "./math/chunks/lookUpTable_bonus_0.csv.e3c1849c"
+        }
+      ],
+      "name": "lookUpTable_bonus_0.csv",
+      "sha256": "e3c1849c05637aa2169de63c7b72a1685d1db98d016261c0f63ce56642354f75",
+      "size": 383
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_extra_chance_0.csv.0e0c1609",
+          "sha256": "0e0c1609c6d48898bc396596e1b33cc2c195bbeb37ba8cef41b3bb74f38e6544",
+          "size": 898,
+          "url": "./math/chunks/lookUpTable_extra_chance_0.csv.0e0c1609"
+        }
+      ],
+      "name": "lookUpTable_extra_chance_0.csv",
+      "sha256": "0e0c1609c6d48898bc396596e1b33cc2c195bbeb37ba8cef41b3bb74f38e6544",
+      "size": 898
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_grave_rush_0.csv.642dee3a",
+          "sha256": "642dee3a586a3818624cca4c4f9234e3e917835c067d8ab801549b1c42c174cd",
+          "size": 918,
+          "url": "./math/chunks/lookUpTable_grave_rush_0.csv.642dee3a"
+        }
+      ],
+      "name": "lookUpTable_grave_rush_0.csv",
+      "sha256": "642dee3a586a3818624cca4c4f9234e3e917835c067d8ab801549b1c42c174cd",
+      "size": 918
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_random_bonus_0.csv.9438d86f",
+          "sha256": "9438d86f00b4a4c234a0b42255c984bcc5a531ca60c51a479f1dafa2037b6779",
+          "size": 399,
+          "url": "./math/chunks/lookUpTable_random_bonus_0.csv.9438d86f"
+        }
+      ],
+      "name": "lookUpTable_random_bonus_0.csv",
+      "sha256": "9438d86f00b4a4c234a0b42255c984bcc5a531ca60c51a479f1dafa2037b6779",
+      "size": 399
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_standard_0.csv.8588ab68",
+          "sha256": "8588ab68ac2758c65a36421c407d880d13c86ba2054ecf60f5cc3db6572af327",
+          "size": 898,
+          "url": "./math/chunks/lookUpTable_standard_0.csv.8588ab68"
+        }
+      ],
+      "name": "lookUpTable_standard_0.csv",
+      "sha256": "8588ab68ac2758c65a36421c407d880d13c86ba2054ecf60f5cc3db6572af327",
+      "size": 898
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_super_bonus_0.csv.0ae63be5",
+          "sha256": "0ae63be5dea8f453df495d337e0a397d4ab502e29291b6e84ad7feeef62dd3dc",
+          "size": 398,
+          "url": "./math/chunks/lookUpTable_super_bonus_0.csv.0ae63be5"
+        }
+      ],
+      "name": "lookUpTable_super_bonus_0.csv",
+      "sha256": "0ae63be5dea8f453df495d337e0a397d4ab502e29291b6e84ad7feeef62dd3dc",
+      "size": 398
+    }
+  ],
+  "schemaVersion": 2
+}

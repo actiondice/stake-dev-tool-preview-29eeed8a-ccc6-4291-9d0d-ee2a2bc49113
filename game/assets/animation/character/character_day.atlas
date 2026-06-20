@@ -1,0 +1,79 @@
+character_day.png
+size:2048,1024
+filter:Linear,Linear
+Layer 1
+bounds:1650,378,153,155
+Layer 27 copy
+bounds:1642,255,121,142
+rotate:90
+Layer 3
+bounds:2008,888,33,38
+rotate:90
+Layer 4
+bounds:1752,712,11,15
+Layer 5
+bounds:1455,391,13,16
+rotate:90
+Layer 7 copy
+bounds:373,11,64,94
+Rays
+bounds:2,107,935,912
+offsets:0,0,935,935
+arm_R
+bounds:939,176,162,388
+rotate:90
+beard
+bounds:1329,166,172,142
+offsets:0,0,172,161
+rotate:90
+belt
+bounds:2,2,249,103
+cap
+bounds:1455,406,193,127
+offsets:2,0,195,127
+eyebrow
+bounds:2008,923,96,34
+rotate:90
+face
+bounds:1473,260,167,144
+offsets:0,34,170,178
+l_arm
+bounds:1473,125,133,166
+rotate:90
+l_bicep
+bounds:1641,140,118,113
+l_close_eye
+bounds:2008,847,39,37
+offsets:0,5,40,42
+rotate:90
+l_eye
+bounds:439,63,40,42
+l_hand
+bounds:1778,836,228,183
+make him smile copy
+bounds:1069,133,71,41
+moustache
+bounds:939,127,128,47
+pant
+bounds:1455,535,295,192
+offsets:0,0,295,223
+r_bicep
+bounds:253,9,96,118
+rotate:90
+r_close_eye
+bounds:1973,805,32,29
+offsets:0,5,32,34
+r_hand copy
+bounds:1778,742,92,193
+rotate:90
+shovel
+bounds:939,340,256,679
+offsets:0,0,256,680
+shovel_Golden
+bounds:1197,340,256,679
+offsets:0,0,256,680
+thumb_L
+bounds:1142,138,36,42
+rotate:90
+torso
+bounds:1455,729,321,290

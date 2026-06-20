@@ -1,0 +1,247 @@
+win_popUp.png
+size:4042,2062
+filter:Linear,Linear
+Big_Coins
+bounds:2,178,1882,819
+offsets:2,1,1885,821
+rotate:90
+Bush_1_Common
+bounds:3716,1374,321,297
+Bush_5_Common
+bounds:823,453,526,387
+rotate:90
+big_B
+bounds:1212,512,377,467
+offsets:7,6,391,480
+big_G
+bounds:1295,45,383,465
+offsets:7,7,397,479
+big_I1
+bounds:1591,525,258,454
+offsets:7,7,272,468
+big_I2
+bounds:3143,1278,242,390
+offsets:6,7,255,404
+big_N
+bounds:2607,1666,338,394
+offsets:7,7,351,408
+big_W
+bounds:897,2,449,396
+offsets:9,6,467,410
+rotate:90
+big_amount_desplay
+bounds:823,981,1079,369
+offsets:6,6,1091,381
+rotate:90
+super_amount_display
+bounds:823,981,1079,369
+offsets:6,6,1091,381
+rotate:90
+epic_Amount_display
+bounds:1194,981,1079,369
+offsets:6,6,1091,381
+rotate:90
+epic_C
+bounds:1936,1615,339,445
+offsets:7,7,355,459
+epic_E
+bounds:2277,1623,328,437
+offsets:8,7,343,450
+epic_Group 3 copy 12
+bounds:2578,988,195,214
+offsets:1,1,197,216
+rotate:90
+epic_Group 3 copy 13
+bounds:2794,994,224,263
+offsets:1,1,226,265
+rotate:90
+epic_Group 3 copy 14
+bounds:3826,1866,194,213
+offsets:1,1,196,215
+rotate:90
+epic_Group 3 copy 16
+bounds:1936,985,182,211
+offsets:1,1,184,213
+rotate:90
+epic_Group 3 copy 17
+bounds:2420,2,178,210
+offsets:1,1,180,212
+rotate:90
+epic_Group 3 copy 18
+bounds:3667,15,176,210
+offsets:1,1,178,212
+epic_Group 3 copy 19
+bounds:2632,2,178,210
+offsets:1,1,180,212
+rotate:90
+epic_Group 3 copy 20
+bounds:3488,14,177,211
+offsets:1,1,179,213
+epic_Group 3 copy 9
+bounds:2844,14,181,212
+offsets:1,1,183,214
+rotate:90
+epic_I-1
+bounds:2344,1185,250,436
+offsets:6,7,263,450
+epic_I-2
+bounds:2596,1220,238,401
+offsets:7,7,252,415
+epic_Layer 46 copy 4
+bounds:3716,1075,320,297
+epic_N
+bounds:2249,578,334,405
+offsets:7,7,347,419
+epic_P
+bounds:2078,83,340,445
+offsets:6,7,353,458
+epic_W
+bounds:1936,1169,444,406
+offsets:9,7,462,421
+rotate:90
+mega_A
+bounds:2947,1670,334,390
+offsets:9,8,351,405
+mega_E
+bounds:3527,1673,297,387
+offsets:8,6,312,399
+mega_G
+bounds:2760,197,322,393
+offsets:7,7,336,407
+mega_Group 3 copy 10
+bounds:3857,863,181,210
+offsets:1,1,183,212
+mega_Group 3 copy 11
+bounds:3826,1683,181,211
+offsets:1,1,183,213
+rotate:90
+mega_Group 3 copy 12
+bounds:3272,9,195,214
+offsets:1,1,197,216
+rotate:90
+mega_Group 3 copy 13
+bounds:3059,1008,224,263
+offsets:1,1,226,265
+mega_Group 3 copy 4
+bounds:2149,985,182,211
+offsets:1,1,184,213
+rotate:90
+mega_Group 3 copy 5
+bounds:3857,650,180,211
+offsets:1,1,182,213
+mega_Group 3 copy 6
+bounds:2362,987,196,214
+offsets:1,1,198,216
+rotate:90
+mega_Group 3 copy 7
+bounds:3285,1013,224,263
+offsets:1,1,226,265
+mega_Group 3 copy 8
+bounds:3857,438,180,210
+offsets:1,1,182,212
+mega_Group 3 copy 9
+bounds:3058,14,181,212
+offsets:1,1,183,214
+rotate:90
+mega_I
+bounds:3283,1670,242,390
+offsets:6,7,255,404
+mega_M
+bounds:3478,625,377,386
+offsets:8,8,393,401
+mega_N
+bounds:2420,182,338,394
+offsets:7,7,351,408
+mega_W
+bounds:1680,74,449,396
+offsets:9,6,467,410
+rotate:90
+mega_amount_display
+bounds:1565,981,1079,369
+offsets:6,6,1091,381
+rotate:90
+super_E
+bounds:3393,227,297,387
+offsets:8,6,312,399
+super_I
+bounds:3234,616,242,390
+offsets:6,7,255,404
+super_Layer 127
+bounds:232,24,152,94
+rotate:90
+super_Layer 128
+bounds:328,27,97,149
+super_Layer 129
+bounds:2,13,163,228
+rotate:90
+super_Layer 54 copy 14
+bounds:3831,245,136,97
+offsets:1,1,138,99
+super_Layer 54 copy 15
+bounds:3944,8,136,96
+offsets:1,1,138,99
+rotate:90
+super_Layer 54 copy 16
+bounds:3845,146,136,97
+offsets:1,1,138,99
+super_Layer 54 copy 17
+bounds:3692,338,137,97
+offsets:1,1,139,99
+super_Layer 55 copy 14
+bounds:3692,239,137,97
+offsets:1,1,139,99
+super_Layer 55 copy 15
+bounds:3845,8,136,97
+offsets:1,1,138,99
+rotate:90
+super_Layer 55 copy 16
+bounds:3511,1181,136,96
+offsets:1,2,138,99
+super_Layer 56 copy 14
+bounds:803,38,138,92
+offsets:1,2,140,95
+rotate:90
+super_Layer 56 copy 15
+bounds:427,37,139,92
+offsets:1,1,141,94
+rotate:90
+super_Layer 56 copy 16
+bounds:3692,531,138,92
+offsets:1,1,140,94
+super_Layer 56copy 16
+bounds:521,37,139,92
+offsets:1,1,141,94
+rotate:90
+super_Layer 58 copy 12
+bounds:3692,437,138,92
+offsets:1,1,140,94
+super_Layer 58 copy 13
+bounds:615,37,139,92
+offsets:1,1,141,94
+rotate:90
+super_Layer 58 copy 14
+bounds:709,37,139,92
+offsets:1,1,141,94
+rotate:90
+super_Layer 58 copy 15
+bounds:3845,344,138,92
+offsets:1,1,140,95
+super_N
+bounds:2585,592,338,394
+offsets:7,7,351,408
+super_P
+bounds:3084,206,307,391
+offsets:6,8,320,405
+super_R
+bounds:2925,599,307,393
+offsets:6,6,320,405
+super_S
+bounds:2836,1273,305,391
+offsets:7,7,319,405
+super_U
+bounds:3387,1279,327,389
+offsets:6,7,339,403
+super_W
+bounds:1851,530,449,396
+offsets:9,6,467,410
+rotate:90

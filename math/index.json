@@ -1,0 +1,40 @@
+{
+  "modes": [
+    {
+      "name": "standard",
+      "cost": 1,
+      "events": "books_standard.jsonl",
+      "weights": "lookUpTable_standard_0.csv"
+    },
+    {
+      "name": "extra_chance",
+      "cost": 2,
+      "events": "books_extra_chance.jsonl",
+      "weights": "lookUpTable_extra_chance_0.csv"
+    },
+    {
+      "name": "grave_rush",
+      "cost": 80,
+      "events": "books_grave_rush.jsonl",
+      "weights": "lookUpTable_grave_rush_0.csv"
+    },
+    {
+      "name": "bonus",
+      "cost": 100,
+      "events": "books_bonus.jsonl",
+      "weights": "lookUpTable_bonus_0.csv"
+    },
+    {
+      "name": "super_bonus",
+      "cost": 250,
+      "events": "books_super_bonus.jsonl",
+      "weights": "lookUpTable_super_bonus_0.csv"
+    },
+    {
+      "name": "random_bonus",
+      "cost": 300,
+      "events": "books_random_bonus.jsonl",
+      "weights": "lookUpTable_random_bonus_0.csv"
+    }
+  ]
+}

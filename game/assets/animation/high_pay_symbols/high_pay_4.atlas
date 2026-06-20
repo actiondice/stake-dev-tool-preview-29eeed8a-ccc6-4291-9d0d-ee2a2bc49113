@@ -1,0 +1,54 @@
+high_pay_4.png
+size:586,273
+filter:Linear,Linear
+Layer 18 copy
+bounds:436,105,31,42
+Layer 18 copy 2
+bounds:326,122,21,30
+rotate:90
+Layer 26 copy
+bounds:122,8,83,48
+Layer 36
+bounds:363,20,123,71
+rotate:90
+Layer 39
+bounds:2,4,81,52
+Layer 41
+bounds:294,145,126,86
+offsets:23,0,149,86
+rotate:90
+Layer 42
+bounds:496,105,83,83
+Layer 43
+bounds:517,17,30,42
+eyelid_L
+bounds:294,120,30,23
+eyelid_R
+bounds:85,7,49,35
+rotate:90
+hair
+bounds:436,2,101,79
+rotate:90
+head
+bounds:2,58,213,173
+offsets:0,13,213,186
+rotate:90
+l_eye
+bounds:549,19,32,40
+l_eyebrow
+bounds:517,61,66,42
+offsets:0,0,66,43
+mouth
+bounds:177,119,115,152
+mouth_base
+bounds:227,3,114,134
+offsets:0,0,132,134
+rotate:90
+pea
+bounds:382,149,112,122
+offsets:189,107,302,302
+r_eye
+bounds:177,58,48,59
+stem
+bounds:496,190,81,88
+rotate:90

@@ -1,0 +1,59 @@
+{
+  "skeleton": {
+    "hash": "9uGAoIMZ+pM",
+    "spine": "4.2.43",
+    "x": -56.75,
+    "y": -21,
+    "width": 113.5,
+    "height": 42,
+    "images": "../payline/images/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "payline",
+      "parent": "root",
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "payline",
+      "bone": "payline",
+      "attachment": "payline"
+    },
+    {
+      "name": "payline2",
+      "bone": "payline",
+      "color": "ffffff6e",
+      "attachment": "payline",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "payline": {
+          "payline": {
+            "width": 227,
+            "height": 84
+          }
+        },
+        "payline2": {
+          "payline": {
+            "width": 227,
+            "height": 84
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "payline": {}
+  }
+}

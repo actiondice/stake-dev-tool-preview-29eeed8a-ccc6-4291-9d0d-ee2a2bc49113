@@ -1,0 +1,650 @@
+{
+  "frames": {
+    "studio_logo_000.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_001.png": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_002.png": {
+      "frame": {
+        "x": 1280,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_003.png": {
+      "frame": {
+        "x": 1920,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_004.png": {
+      "frame": {
+        "x": 2560,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_005.png": {
+      "frame": {
+        "x": 3200,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_006.png": {
+      "frame": {
+        "x": 0,
+        "y": 360,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_007.png": {
+      "frame": {
+        "x": 640,
+        "y": 360,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_008.png": {
+      "frame": {
+        "x": 1280,
+        "y": 360,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_009.png": {
+      "frame": {
+        "x": 1920,
+        "y": 360,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_010.png": {
+      "frame": {
+        "x": 2560,
+        "y": 360,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_011.png": {
+      "frame": {
+        "x": 3200,
+        "y": 360,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_012.png": {
+      "frame": {
+        "x": 0,
+        "y": 720,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_013.png": {
+      "frame": {
+        "x": 640,
+        "y": 720,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_014.png": {
+      "frame": {
+        "x": 1280,
+        "y": 720,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_015.png": {
+      "frame": {
+        "x": 1920,
+        "y": 720,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_016.png": {
+      "frame": {
+        "x": 2560,
+        "y": 720,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_017.png": {
+      "frame": {
+        "x": 3200,
+        "y": 720,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_018.png": {
+      "frame": {
+        "x": 0,
+        "y": 1080,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_019.png": {
+      "frame": {
+        "x": 640,
+        "y": 1080,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_020.png": {
+      "frame": {
+        "x": 1280,
+        "y": 1080,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_021.png": {
+      "frame": {
+        "x": 1920,
+        "y": 1080,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_022.png": {
+      "frame": {
+        "x": 2560,
+        "y": 1080,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_023.png": {
+      "frame": {
+        "x": 3200,
+        "y": 1080,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_024.png": {
+      "frame": {
+        "x": 0,
+        "y": 1440,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_025.png": {
+      "frame": {
+        "x": 640,
+        "y": 1440,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_026.png": {
+      "frame": {
+        "x": 1280,
+        "y": 1440,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_027.png": {
+      "frame": {
+        "x": 1920,
+        "y": 1440,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_028.png": {
+      "frame": {
+        "x": 2560,
+        "y": 1440,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    },
+    "studio_logo_029.png": {
+      "frame": {
+        "x": 3200,
+        "y": 1440,
+        "w": 640,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 360
+      }
+    }
+  },
+  "animations": {
+    "loading": [
+      "studio_logo_000.png",
+      "studio_logo_001.png",
+      "studio_logo_002.png",
+      "studio_logo_003.png",
+      "studio_logo_004.png",
+      "studio_logo_005.png",
+      "studio_logo_006.png",
+      "studio_logo_007.png",
+      "studio_logo_008.png",
+      "studio_logo_009.png",
+      "studio_logo_010.png",
+      "studio_logo_011.png",
+      "studio_logo_012.png",
+      "studio_logo_013.png",
+      "studio_logo_014.png",
+      "studio_logo_015.png",
+      "studio_logo_016.png",
+      "studio_logo_017.png",
+      "studio_logo_018.png",
+      "studio_logo_019.png",
+      "studio_logo_020.png",
+      "studio_logo_021.png",
+      "studio_logo_022.png",
+      "studio_logo_023.png",
+      "studio_logo_024.png",
+      "studio_logo_025.png",
+      "studio_logo_026.png",
+      "studio_logo_027.png",
+      "studio_logo_028.png",
+      "studio_logo_029.png"
+    ]
+  },
+  "meta": {
+    "app": "Obscure Studio loader export",
+    "version": "1.0",
+    "image": "studio_logo.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 3840,
+      "h": 1800
+    },
+    "scale": "1",
+    "fps": 30
+  }
+}

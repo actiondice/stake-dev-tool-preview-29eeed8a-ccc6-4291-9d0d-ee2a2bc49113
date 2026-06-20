@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @keyframes wvz-loadfill { 0%{width:4%} 100%{width:100%} }
+    @keyframes wvz-shimmer { 0%{transform:translateX(-160%) skewX(-18deg)} 100%{transform:translateX(620%) skewX(-18deg)} }
+    @keyframes wvz-bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-9px)} }
+    @keyframes wvz-goldsway { 0%,100%{transform:rotate(-6deg)} 50%{transform:rotate(-11deg)} }
+    @keyframes wvz-silversway { 0%,100%{transform:rotate(-6deg)} 50%{transform:rotate(-1deg)} }
+    @keyframes wvz-spx { from{background-position-x:0} to{background-position-x:-840px} }
+    @keyframes wvz-spy { from{background-position-y:0} to{background-position-y:-756px} }
+    @keyframes wvz-dots { 0%{opacity:.2} 50%{opacity:1} 100%{opacity:.2} }
+    @keyframes wvz-blink { 0%,100%{opacity:1} 50%{opacity:.12} }
+    @keyframes wvz-logo { 0%,100%{transform:translateX(-50%) scale(1) rotate(0deg)} 50%{transform:translateX(-50%) scale(1.035) rotate(-.7deg)} }
+    @keyframes wvz-presspop { 0%{opacity:0;transform:translateY(14px) scale(.92)} 100%{opacity:1;transform:translateY(0) scale(1)} }
+    @keyframes wvz-shine { 0%{transform:translateX(-130%) skewX(-12deg)} 55%{transform:translateX(130%) skewX(-12deg)} 100%{transform:translateX(130%) skewX(-12deg)} }
+  </style>
+</helmet>
+<div data-screen-label="Loading Screen" onClick="{{ onContinue }}" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:#0d2238;font-family:'Oswald',sans-serif;cursor:pointer;">
+
+  <img src="assets/bg.png" alt="" style="{{ bgStyle }}">
+  <div style="position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 38%, rgba(10,30,55,0) 30%, rgba(6,18,34,.55) 78%, rgba(4,12,24,.82) 100%);"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(8,22,40,.45) 0%, rgba(8,22,40,0) 22%, rgba(8,22,40,0) 70%, rgba(6,16,30,.7) 100%);"></div>
+
+  <!-- LOGO -->
+  <img src="assets/logo.png" alt="Wilds vs Zombies" style="position:absolute;top:24px;left:50%;transform:translateX(-50%);width:520px;height:auto;filter:drop-shadow(0 8px 16px rgba(0,0,0,.55));z-index:5;animation:wvz-logo 5s ease-in-out infinite;transform-origin:center top;">
+
+  <!-- CARDS -->
+  <div style="position:absolute;top:248px;left:50%;transform:translateX(-50%);display:flex;gap:60px;align-items:center;z-index:4;">
+
+    <!-- CARD 1 : VS DUEL -->
+    <div style="position:relative;width:396px;height:566px;transform:rotate(-2.2deg);">
+      <div style="position:absolute;inset:0;border-radius:8px;background:repeating-linear-gradient(91deg,rgba(255,225,180,.09) 0 7px,rgba(60,30,10,.13) 7px 15px,rgba(120,70,30,.05) 15px 30px),linear-gradient(168deg,#b56e33 0%,#9a5526 46%,#7c4320 100%);box-shadow:0 22px 36px rgba(0,0,0,.55),0 0 0 3px #5d3416,inset 0 2px 0 rgba(255,210,160,.4),inset 0 -5px 9px rgba(40,20,5,.55);"></div>
+      <div style="position:absolute;inset:30px 28px;border-radius:5px;background:radial-gradient(90% 70% at 50% 120%,rgba(110,150,40,.42),transparent 55%),radial-gradient(70% 50% at 12% 3%,rgba(140,165,55,.26),transparent 50%),radial-gradient(60% 45% at 92% 7%,rgba(120,150,50,.2),transparent 50%),linear-gradient(172deg,#f4eed2 0%,#ece0b6 60%,#e0d2a2 100%);box-shadow:inset 0 0 0 2px rgba(120,90,40,.28),inset 0 3px 14px rgba(90,70,30,.3),inset 0 -10px 22px rgba(120,140,60,.2);"></div>
+      <div style="position:absolute;inset:30px 28px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:26px 22px 24px;">
+        <div style="flex:1;display:flex;align-items:center;justify-content:center;width:100%;position:relative;">
+          <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) translateX(-52px) rotate(-26deg);z-index:2;">
+            <img src="assets/vs_alt.png" alt="VS" style="display:block;width:188px;height:auto;animation:wvz-bob 4s ease-in-out infinite;filter:drop-shadow(0 0 13px rgba(168,92,235,.85)) drop-shadow(0 10px 13px rgba(0,0,0,.5));">
+          </div>
+          <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) translateX(52px) rotate(6deg);z-index:1;">
+            <img src="assets/vs.png" alt="VS" style="display:block;width:196px;height:auto;animation:wvz-bob 4.5s ease-in-out infinite;animation-delay:.5s;filter:drop-shadow(0 0 13px rgba(168,92,235,.8)) drop-shadow(0 12px 15px rgba(0,0,0,.5));">
+          </div>
+        </div>
+        <div style="font-family:'Luckiest Guy',cursive;font-size:40px;line-height:1;letter-spacing:1px;color:#5a2e93;text-shadow:0 2px 0 rgba(255,255,255,.7),0 -1px 0 rgba(0,0,0,.18),0 5px 7px rgba(60,20,90,.28);margin-bottom:11px;">VS DUEL</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;letter-spacing:1px;color:#6c5a39;text-transform:uppercase;text-align:center;line-height:1.25;margin-bottom:12px;">Expands into wild reels</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;letter-spacing:.6px;text-transform:uppercase;color:#3f6d18;background:rgba(142,209,30,.2);border:1.5px solid rgba(123,193,31,.6);border-radius:999px;padding:6px 16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.5);">Multipliers stack</div>
+      </div>
+      <div style="position:absolute;top:13px;left:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;top:13px;right:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;bottom:13px;left:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;bottom:13px;right:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+    </div>
+
+    <!-- CARD 2 : SHOVEL RUSH -->
+    <div style="position:relative;width:396px;height:566px;transform:rotate(0deg);">
+      <div style="position:absolute;inset:0;border-radius:8px;background:repeating-linear-gradient(91deg,rgba(255,225,180,.09) 0 7px,rgba(60,30,10,.13) 7px 15px,rgba(120,70,30,.05) 15px 30px),linear-gradient(168deg,#b56e33 0%,#9a5526 46%,#7c4320 100%);box-shadow:0 22px 36px rgba(0,0,0,.55),0 0 0 3px #5d3416,inset 0 2px 0 rgba(255,210,160,.4),inset 0 -5px 9px rgba(40,20,5,.55);"></div>
+      <div style="position:absolute;inset:30px 28px;border-radius:5px;background:radial-gradient(90% 70% at 50% 120%,rgba(110,150,40,.42),transparent 55%),radial-gradient(70% 50% at 12% 3%,rgba(140,165,55,.26),transparent 50%),radial-gradient(60% 45% at 92% 7%,rgba(120,150,50,.2),transparent 50%),linear-gradient(172deg,#f4eed2 0%,#ece0b6 60%,#e0d2a2 100%);box-shadow:inset 0 0 0 2px rgba(120,90,40,.28),inset 0 3px 14px rgba(90,70,30,.3),inset 0 -10px 22px rgba(120,140,60,.2);"></div>
+      <div style="position:absolute;inset:30px 28px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:26px 22px 24px;">
+        <div style="flex:1;display:flex;align-items:center;justify-content:center;width:100%;position:relative;">
+          <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) translateX(-6px) translateY(-2px) scaleX(-1);z-index:1;">
+            <img src="assets/silver_shovel.png" alt="" style="display:block;width:200px;height:auto;transform-origin:center;animation:wvz-silversway 4.6s ease-in-out infinite;filter:drop-shadow(0 0 11px rgba(205,222,235,.72)) drop-shadow(0 8px 10px rgba(0,0,0,.4));">
+          </div>
+          <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) translateX(6px) translateY(2px);z-index:2;">
+            <img src="assets/gold_shovel.png" alt="Gold Shovel" style="display:block;width:204px;height:auto;transform-origin:center;animation:wvz-goldsway 5s ease-in-out infinite;filter:drop-shadow(0 0 12px rgba(245,180,60,.85)) drop-shadow(0 11px 13px rgba(0,0,0,.5));">
+          </div>
+        </div>
+        <div style="font-family:'Luckiest Guy',cursive;font-size:40px;line-height:1;letter-spacing:1px;color:#9a5a16;text-shadow:0 2px 0 rgba(255,255,255,.7),0 -1px 0 rgba(0,0,0,.18),0 5px 7px rgba(120,80,0,.3);margin-bottom:11px;">SHOVEL STRIKE</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;letter-spacing:1px;color:#6c5a39;text-transform:uppercase;text-align:center;line-height:1.25;margin-bottom:12px;">Places wilds and VS symbols</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;letter-spacing:.6px;text-transform:uppercase;color:#3f6d18;background:rgba(142,209,30,.2);border:1.5px solid rgba(123,193,31,.6);border-radius:999px;padding:6px 16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.5);">Bonus only</div>
+      </div>
+      <div style="position:absolute;top:13px;left:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;top:13px;right:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;bottom:13px;left:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;bottom:13px;right:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+    </div>
+
+    <!-- CARD 3 : FREE SPINS -->
+    <div style="position:relative;width:396px;height:566px;transform:rotate(2.2deg);">
+      <div style="position:absolute;inset:0;border-radius:8px;background:repeating-linear-gradient(91deg,rgba(255,225,180,.09) 0 7px,rgba(60,30,10,.13) 7px 15px,rgba(120,70,30,.05) 15px 30px),linear-gradient(168deg,#b56e33 0%,#9a5526 46%,#7c4320 100%);box-shadow:0 22px 36px rgba(0,0,0,.55),0 0 0 3px #5d3416,inset 0 2px 0 rgba(255,210,160,.4),inset 0 -5px 9px rgba(40,20,5,.55);"></div>
+      <div style="position:absolute;inset:30px 28px;border-radius:5px;background:radial-gradient(90% 70% at 50% 120%,rgba(110,150,40,.42),transparent 55%),radial-gradient(70% 50% at 12% 3%,rgba(140,165,55,.26),transparent 50%),radial-gradient(60% 45% at 92% 7%,rgba(120,150,50,.2),transparent 50%),linear-gradient(172deg,#f4eed2 0%,#ece0b6 60%,#e0d2a2 100%);box-shadow:inset 0 0 0 2px rgba(120,90,40,.28),inset 0 3px 14px rgba(90,70,30,.3),inset 0 -10px 22px rgba(120,140,60,.2);"></div>
+      <div style="position:absolute;inset:30px 28px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:26px 22px 24px;">
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;gap:8px;">
+          <div style="display:flex;align-items:flex-start;justify-content:center;margin-top:10px;">
+            <div style="transform:rotate(-12deg);margin-top:18px;margin-right:-50px;z-index:1;">
+              <div style="position:relative;width:164px;height:148px;overflow:hidden;animation:wvz-bob 4s ease-in-out infinite;filter:drop-shadow(0 0 7px rgba(148,222,52,.55)) drop-shadow(0 5px 7px rgba(0,0,0,.4));">
+                <div style="position:absolute;inset:0;background-image:url(assets/sheet10.png);background-repeat:no-repeat;background-size:984px 889px;background-position:-328px -296px;"></div>
+                <div style="position:absolute;inset:0;background-image:url(assets/sheet10.png);background-repeat:no-repeat;background-size:984px 889px;background-position:-328px -296px;-webkit-mask-image:url(assets/sheet10.png);mask-image:url(assets/sheet10.png);-webkit-mask-size:984px 889px;mask-size:984px 889px;-webkit-mask-position:-328px -296px;mask-position:-328px -296px;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;">
+                  <div style="position:absolute;top:-20%;left:0;width:55%;height:140%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.92),transparent);animation:wvz-shine 2.8s ease-in-out infinite;"></div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:-4px;z-index:3;">
+              <div style="position:relative;width:164px;height:148px;overflow:hidden;animation:wvz-bob 4.4s ease-in-out infinite;animation-delay:.2s;filter:drop-shadow(0 0 7px rgba(245,180,60,.55)) drop-shadow(0 5px 7px rgba(0,0,0,.4));">
+                <div style="position:absolute;inset:0;background-image:url(assets/sheet12.png);background-repeat:no-repeat;background-size:984px 889px;background-position:-328px -296px;"></div>
+                <div style="position:absolute;inset:0;background-image:url(assets/sheet12.png);background-repeat:no-repeat;background-size:984px 889px;background-position:-328px -296px;-webkit-mask-image:url(assets/sheet12.png);mask-image:url(assets/sheet12.png);-webkit-mask-size:984px 889px;mask-size:984px 889px;-webkit-mask-position:-328px -296px;mask-position:-328px -296px;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;">
+                  <div style="position:absolute;top:-20%;left:0;width:55%;height:140%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.92),transparent);animation:wvz-shine 2.8s ease-in-out .55s infinite;"></div>
+                </div>
+              </div>
+            </div>
+            <div style="transform:rotate(12deg);margin-top:18px;margin-left:-50px;z-index:1;">
+              <div style="position:relative;width:164px;height:148px;overflow:hidden;animation:wvz-bob 4s ease-in-out infinite;animation-delay:.4s;filter:drop-shadow(0 0 7px rgba(168,92,235,.55)) drop-shadow(0 5px 7px rgba(0,0,0,.4));">
+                <div style="position:absolute;inset:0;background-image:url(assets/sheet15.png);background-repeat:no-repeat;background-size:984px 889px;background-position:-328px -296px;"></div>
+                <div style="position:absolute;inset:0;background-image:url(assets/sheet15.png);background-repeat:no-repeat;background-size:984px 889px;background-position:-328px -296px;-webkit-mask-image:url(assets/sheet15.png);mask-image:url(assets/sheet15.png);-webkit-mask-size:984px 889px;mask-size:984px 889px;-webkit-mask-position:-328px -296px;mask-position:-328px -296px;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;">
+                  <div style="position:absolute;top:-20%;left:0;width:55%;height:140%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.92),transparent);animation:wvz-shine 2.8s ease-in-out 1.1s infinite;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/grave.png" alt="Bonus Scatter" style="width:214px;height:auto;margin-top:-56px;margin-bottom:16px;animation:wvz-bob 4.4s ease-in-out infinite;filter:drop-shadow(0 0 13px rgba(148,222,52,.8)) drop-shadow(0 10px 12px rgba(0,0,0,.45));">
+        </div>
+        <div style="font-family:'Luckiest Guy',cursive;font-size:40px;line-height:1;letter-spacing:1px;color:#4a7d1e;text-shadow:0 2px 0 rgba(255,255,255,.7),0 -1px 0 rgba(0,0,0,.18),0 5px 7px rgba(40,80,10,.3);margin-bottom:11px;">FREE SPINS</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;letter-spacing:1px;color:#6c5a39;text-transform:uppercase;text-align:center;line-height:1.25;margin-bottom:12px;">3 / 4 / 5 Scatters</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;letter-spacing:.6px;text-transform:uppercase;color:#3f6d18;background:rgba(142,209,30,.2);border:1.5px solid rgba(123,193,31,.6);border-radius:999px;padding:6px 16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.5);">10 / 12 / 15 Spins</div>
+      </div>
+      <div style="position:absolute;top:13px;left:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;top:13px;right:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;bottom:13px;left:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+      <div style="position:absolute;bottom:13px;right:13px;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#9ca2a8,#4a4d52 60%,#26282b);box-shadow:0 2px 3px rgba(0,0,0,.5),inset 0 1px 1px rgba(255,255,255,.55);"></div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM : LOADING BAR  ->  PRESS TO CONTINUE -->
+  <div style="position:absolute;bottom:56px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:14px;z-index:6;height:96px;justify-content:flex-end;">
+    <sc-if value="{{ loading }}" hint-placeholder-val="{{ true }}">
+      <div style="font-family:'Oswald',sans-serif;font-weight:700;font-size:20px;letter-spacing:5px;color:#f3ecd6;text-transform:uppercase;text-shadow:0 2px 4px rgba(0,0,0,.6);"><span style="color:#bdf24f;">{{ percent }}%</span> Loading<span style="animation:wvz-dots 1.4s infinite;">.</span><span style="animation:wvz-dots 1.4s .2s infinite;">.</span><span style="animation:wvz-dots 1.4s .4s infinite;">.</span></div>
+      <div style="width:680px;height:52px;border-radius:16px;padding:8px;background:linear-gradient(180deg,#8a5a30 0%,#6a3f20 48%,#4d2c16 100%);box-shadow:0 0 0 3px #38200f,0 10px 22px rgba(0,0,0,.5),inset 0 2px 0 rgba(255,205,150,.45),inset 0 -3px 6px rgba(0,0,0,.5);">
+        <div style="position:relative;width:100%;height:100%;border-radius:9px;background:linear-gradient(180deg,#1c1006,#2a1a0c);box-shadow:inset 0 3px 7px rgba(0,0,0,.7),inset 0 -1px 0 rgba(120,80,40,.4);overflow:hidden;">
+          <div style="{{ fillStyle }}">
+            <div style="position:absolute;top:0;left:0;width:40px;height:100%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.65),rgba(255,255,255,0));animation:wvz-shimmer 2.1s ease-in-out infinite;"></div>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+    <sc-if value="{{ ready }}" hint-placeholder-val="{{ false }}">
+      <div style="font-family:'Luckiest Guy',cursive;font-size:34px;letter-spacing:3px;color:#f6efcf;text-transform:uppercase;text-shadow:0 0 16px rgba(142,209,30,.7),0 3px 6px rgba(0,0,0,.7);animation:wvz-blink 1.1s ease-in-out infinite,wvz-presspop .4s ease-out;padding-bottom:14px;">Press Anywhere To Continue</div>
+    </sc-if>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1920,&quot;height&quot;:1080},&quot;blur&quot;:{&quot;editor&quot;:&quot;float&quot;,&quot;default&quot;:4,&quot;min&quot;:0,&quot;max&quot;:20,&quot;step&quot;:0.5,&quot;tsType&quot;:&quot;number&quot;},&quot;dim&quot;:{&quot;editor&quot;:&quot;float&quot;,&quot;default&quot;:0.5,&quot;min&quot;:0.2,&quot;max&quot;:1,&quot;step&quot;:0.05,&quot;tsType&quot;:&quot;number&quot;},&quot;barSpeed&quot;:{&quot;editor&quot;:&quot;float&quot;,&quot;default&quot;:4,&quot;min&quot;:1.5,&quot;max&quot;:8,&quot;step&quot;:0.5,&quot;tsType&quot;:&quot;number&quot;}}">
+class Component extends DCLogic {
+  state = { phase: 'loading', percent: 0 };
+  componentDidMount() { this.startLoading(); }
+  componentWillUnmount() { clearTimeout(this.t); clearInterval(this.iv); }
+  startLoading() {
+    clearTimeout(this.t); clearInterval(this.iv);
+    this.setState({ phase: 'loading', percent: 0 });
+    const dur = (this.props.barSpeed ?? 4) * 1000;
+    const start = Date.now();
+    this.iv = setInterval(() => {
+      const pct = Math.min(100, ((Date.now() - start) / dur) * 100);
+      this.setState({ percent: pct });
+      if (pct >= 100) clearInterval(this.iv);
+    }, 40);
+    this.t = setTimeout(() => this.setState({ phase: 'ready' }), dur + 350);
+  }
+  renderVals() {
+    const blur = this.props.blur ?? 7;
+    const dim = this.props.dim ?? 0.5;
+    const dur = this.props.barSpeed ?? 4;
+    return {
+      loading: this.state.phase === 'loading',
+      ready: this.state.phase === 'ready',
+      onContinue: () => { if (this.state.phase === 'ready') this.startLoading(); },
+      bgStyle: {
+        position: 'absolute', top: '-24px', left: '-24px', right: '-24px', bottom: '-24px',
+        width: 'calc(100% + 48px)', height: 'calc(100% + 48px)', objectFit: 'cover',
+        filter: `blur(${blur}px) brightness(${dim}) saturate(1.18)`, transform: 'scale(1.04)'
+      },
+      percent: Math.round(this.state.percent),
+      fillStyle: {
+        position: 'absolute', top: 0, left: 0, height: '100%', width: `${this.state.percent}%`,
+        minWidth: '14px', borderRadius: '9px', overflow: 'hidden',
+        background: 'linear-gradient(180deg,#bdf24f 0%,#7cc11f 52%,#4f8e19 100%)',
+        boxShadow: 'inset 0 3px 2px rgba(255,255,255,.6),inset 0 -7px 9px rgba(35,70,0,.5),0 0 14px rgba(142,209,30,.5)',
+        transition: 'width .08s linear'
+      }
+    };
+  }
+}
+</script>
+</body>
+</html>
